@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#title1{
+    color: royalblue;
+}
+
+#heading10{
+    color: royalblue;
+}
+main{
+    flex: 1;
+    padding: 20px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    float: left;
+
+}
+.product{
+    width: 250px;
+    border: 1px solid black;
+    padding: 20px;
+   
+}
+.product img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+
+}
+.product h2{
+    color: royalblue;
+    margin-top: 10px;
+}
+.product p{
+    color: royalblue;
+    margin-top: 10px;
+}
+button{
+    color: royalblue;
+}
+#class{
+    position: absolute;
+    margin-top: -40px;
+    right: 800px;
+}
+#class2{
+    position: absolute;
+    margin-top: -80px;
+    left: 670px;
+    
+}
+#class3{
+    position: absolute;
+    margin-top: -119px;
+    left: 1000px;
+}
+li{
+    float: left;
+}
+ul{
+    list-style-type: none;
+    padding: 15px;
+    align-items: center;
+}
+li a{
+    color: royalblue;
+    font-size: 24;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: solid;
+}
+li a:hover{
+    color: gold;
+}
+.product button{
+    padding: 15px;
+    background-color: lightslategray;
+    border-radius: 15px;
+}
+.LOGO{
+    color: royalblue;
+    font-size: 48px;
+}
+.product button:hover{
+    color: gold;
+    background-color: darkgray;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(5590457.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    padding: 14px 16px;
+    top: 100px;
+}
+#blue{
+    color: royalblue;
+    align-items: center;
+    padding: 30px;
+    text-decoration: solid;
+}
+#blue p{
+    font-size: 29px;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; 
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
